@@ -26,6 +26,8 @@
 		1FD4E20222E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20022E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift */; };
 		1FD4E20322E9231C00ADB3D0 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20122E9231C00ADB3D0 /* UIImage+SwiftyGif.swift */; };
 		1FD4E20522E9233500ADB3D0 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20422E9233400ADB3D0 /* SwiftyGifManager.swift */; };
+		1FFBFF6422EA1A71004E23C9 /* BasierCircle-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFBFF6222EA1A70004E23C9 /* BasierCircle-Bold.otf */; };
+		1FFBFF6522EA1A71004E23C9 /* BasierCircle-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFBFF6322EA1A70004E23C9 /* BasierCircle-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		1FD4E20022E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
 		1FD4E20122E9231C00ADB3D0 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
 		1FD4E20422E9233400ADB3D0 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGifManager.swift; sourceTree = "<group>"; };
+		1FFBFF6222EA1A70004E23C9 /* BasierCircle-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Bold.otf"; sourceTree = "<group>"; };
+		1FFBFF6322EA1A70004E23C9 /* BasierCircle-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +121,7 @@
 		1FD4E20A22EA156200ADB3D0 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1FFBFF6622EA1A7A004E23C9 /* Fonts */,
 				1F92938222E7C41A00E60495 /* Main.storyboard */,
 				1F92938722E7C41E00E60495 /* LaunchScreen.storyboard */,
 				1F92938A22E7C41E00E60495 /* Info.plist */,
@@ -136,6 +141,15 @@
 				1FD4E20622E924B700ADB3D0 /* SwiftyGif */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		1FFBFF6622EA1A7A004E23C9 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				1FFBFF6222EA1A70004E23C9 /* BasierCircle-Bold.otf */,
+				1FFBFF6322EA1A70004E23C9 /* BasierCircle-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,7 +222,9 @@
 				1FD4E1F622E90CC000ADB3D0 /* hotUIAnimation2.gif in Resources */,
 				1F92939D22E7D82300E60495 /* Assets.xcassets in Resources */,
 				1FD4E1F222E90CC000ADB3D0 /* hotUIAnimation7.gif in Resources */,
+				1FFBFF6422EA1A71004E23C9 /* BasierCircle-Bold.otf in Resources */,
 				1FD4E1F322E90CC000ADB3D0 /* hotUIAnimation0.gif in Resources */,
+				1FFBFF6522EA1A71004E23C9 /* BasierCircle-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -381,7 +397,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = flow.com.FeedConcept;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -400,7 +416,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = flow.com.FeedConcept;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
