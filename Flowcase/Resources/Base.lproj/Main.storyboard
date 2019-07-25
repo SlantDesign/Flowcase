@@ -12,7 +12,7 @@
         <!--Feed Controller-->
         <scene sceneID="ZC0-dZ-vtA">
             <objects>
-                <collectionViewController id="sGX-fu-2Lv" customClass="FeedController" customModule="FeedConcept" customModuleProvider="target" sceneMemberID="viewController">
+                <collectionViewController id="sGX-fu-2Lv" customClass="FeedController" customModule="Flowcase" customModuleProvider="target" sceneMemberID="viewController">
                     <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" dataMode="prototypes" id="nUc-tx-HJx">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -24,7 +24,7 @@
                             <inset key="sectionInset" minX="24" minY="0.0" maxX="24" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="feedCellIdentifier" id="Ozj-jc-8UG" customClass="FeedCell" customModule="FeedConcept" customModuleProvider="target">
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="feedCellIdentifier" id="Ozj-jc-8UG" customClass="FeedCell" customModule="Flowcase" customModuleProvider="target">
                                 <rect key="frame" x="24" y="0.0" width="366" height="366"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
