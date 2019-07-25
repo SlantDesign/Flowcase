@@ -4,7 +4,7 @@
 <array>
 	<dict>
 		<key>title</key>
-		<string>Menu Animation - Molley Heltz</string>
+		<string>Menu Animation</string>
 		<key>author</key>
 		<string>Zhenya Rynzhuk</string>
 		<key>image</key>
@@ -16,7 +16,7 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Pull To Refresh - Airbnb</string>
+		<string>Pull To Refresh</string>
 		<key>author</key>
 		<string>Divan Raj</string>
 		<key>image</key>
@@ -28,7 +28,7 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Daily UI #015 - On Off Switch</string>
+		<string>On Off Switches</string>
 		<key>author</key>
 		<string>Peter Arumugam</string>
 		<key>image</key>
@@ -40,7 +40,7 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>aroundBerlin splash</string>
+		<string>Launch Animation</string>
 		<key>author</key>
 		<string>Henrique J. Tramontina</string>
 		<key>image</key>
@@ -52,7 +52,7 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Splash Screen - Shekel</string>
+		<string>Launch Animation</string>
 		<key>author</key>
 		<string>Anastasia Ageeva</string>
 		<key>image</key>
@@ -64,7 +64,7 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Splash Screen - MetaLab</string>
+		<string>Launch Animation</string>
 		<key>author</key>
 		<string>Samuel Medvedowsky</string>
 		<key>image</key>
@@ -88,7 +88,7 @@
 	</dict>
 	<dict>
 		<key>title</key>
-		<string>Menu Button II</string>
+		<string>Custom Button</string>
 		<key>author</key>
 		<string>Oleg Frolov</string>
 		<key>image</key>
