@@ -41,6 +41,12 @@ class FeedCell: UICollectionViewCell {
         layer.shadowOffset = CGSize(width: 0, height: 2)
         layer.shadowRadius = 10
         layer.shadowOpacity = 0.35
+        if let bold = UIFont(name: "BasierCircle-Bold", size: title.font.pointSize) {
+            title.font = bold
+        }
+        if let regular = UIFont(name: "BasierCircle-Regular", size: byLine.font.pointSize) {
+            byLine.font = regular
+        }
     }
 
     /// Links buttons with the methods they should trigger
