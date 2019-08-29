@@ -54,13 +54,6 @@ class FeedCell: UICollectionViewCell, ToggleButtonDelegate {
         webButton.addTarget(self, action: #selector(launchWeb(sender:)), for: UIControl.Event.touchUpInside)
     }
 
-    /// Toggles the visible status of the like buttton
-    @objc
-    func toggleLikeButton(sender: LikeButtonTimelineButton) {
-        data.liked = sender.isSelected
-        delegate.likeStatusChanged(cell: self)
-    }
-
     /// Launches Safari
     @objc
     func launchWeb(sender: UIButton) {
