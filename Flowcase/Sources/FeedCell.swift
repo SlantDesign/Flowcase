@@ -19,14 +19,7 @@ class FeedCell: UICollectionViewCell {
     var delegate: FeedCellLikeDelegate!
 
     /// Variable to hold the data for the cell
-    var data: FeedCellData! {
-        /// Set labels and image status after a new data object has been set
-        didSet {
-            title.text = data.title
-            byLine.text = data.author
-            likeButton.isSelected = data.liked
-        }
-    }
+    var data: FeedCellData!
 
     override func awakeFromNib() {
         style()
@@ -53,6 +46,13 @@ class FeedCell: UICollectionViewCell {
     func createButtonTargets() {
         likeButton.addTarget(self, action: #selector(toggleLikeButton(sender:)), for: UIControl.Event.touchUpInside)
         webButton.addTarget(self, action: #selector(launchWeb(sender:)), for: UIControl.Event.touchUpInside)
+    }
+
+    /// Updates visible content for the cell
+    func updateContent() {
+        title.text = data.title
+        byLine.text = data.author
+        likeButton.isSelected = data.liked
     }
 
     /// Toggles the visible status of the like buttton
