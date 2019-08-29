@@ -63,7 +63,7 @@ class FeedCell: UICollectionViewCell, ToggleButtonDelegate {
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
     }
 
-    func buttonDidToggle(sender: ToggleButton) {
+    func didToggle(sender: ToggleButton) {
         data.liked = sender.isSelected
         delegate.likeStatusChanged(cell: self)
     }

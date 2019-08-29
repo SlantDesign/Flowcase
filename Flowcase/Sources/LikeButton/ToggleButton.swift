@@ -51,7 +51,7 @@ class ToggleButton: UIButton {
             forward?.play()
         }
         super.isSelected = !isSelected
-        delegate?.buttonDidToggle(sender: self)
+        delegate?.didToggle(sender: self)
     }
 
     override var isSelected: Bool {
@@ -71,5 +71,5 @@ class ToggleButton: UIButton {
 }
 
 protocol ToggleButtonDelegate {
-    func buttonDidToggle(sender: ToggleButton)
+    func didToggle(sender: ToggleButton)
 }
