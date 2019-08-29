@@ -26,6 +26,23 @@
 		1FD4E20222E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20022E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift */; };
 		1FD4E20322E9231C00ADB3D0 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20122E9231C00ADB3D0 /* UIImage+SwiftyGif.swift */; };
 		1FD4E20522E9233500ADB3D0 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20422E9233400ADB3D0 /* SwiftyGifManager.swift */; };
+		1FEC824F23188236009FF1D3 /* Animation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824223188236009FF1D3 /* Animation.swift */; };
+		1FEC825023188236009FF1D3 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824323188236009FF1D3 /* TextView.swift */; };
+		1FEC825123188236009FF1D3 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824423188236009FF1D3 /* Sound.swift */; };
+		1FEC825223188236009FF1D3 /* CAMediaTimingFunction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824523188236009FF1D3 /* CAMediaTimingFunction+Extension.swift */; };
+		1FEC825323188236009FF1D3 /* CAKeyframeAnimation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824623188236009FF1D3 /* CAKeyframeAnimation+Extension.swift */; };
+		1FEC825423188236009FF1D3 /* CATransaction+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824723188236009FF1D3 /* CATransaction+Extension.swift */; };
+		1FEC825523188236009FF1D3 /* Timeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824823188236009FF1D3 /* Timeline.swift */; };
+		1FEC825623188236009FF1D3 /* NSMutableParagraphStyle+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824923188236009FF1D3 /* NSMutableParagraphStyle+Extension.swift */; };
+		1FEC825723188236009FF1D3 /* ShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824A23188236009FF1D3 /* ShapeView.swift */; };
+		1FEC825823188236009FF1D3 /* NSShadow+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824B23188236009FF1D3 /* NSShadow+Extension.swift */; };
+		1FEC825923188236009FF1D3 /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824C23188236009FF1D3 /* UIImage+Extension.swift */; };
+		1FEC825A23188236009FF1D3 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824D23188236009FF1D3 /* UIView+Extension.swift */; };
+		1FEC825B23188236009FF1D3 /* CGPath+SVG.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC824E23188236009FF1D3 /* CGPath+SVG.swift */; };
+		1FEC825F23188263009FF1D3 /* LikeButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC825D23188263009FF1D3 /* LikeButtonView.swift */; };
+		1FEC826023188263009FF1D3 /* LikeButtonTimeline.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC825E23188263009FF1D3 /* LikeButtonTimeline.swift */; };
+		1FEC82632318826A009FF1D3 /* ToggleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC82612318826A009FF1D3 /* ToggleButton.swift */; };
+		1FEC82642318826A009FF1D3 /* LikeButtonTimelineButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FEC82622318826A009FF1D3 /* LikeButtonTimelineButton.swift */; };
 		1FFBFF6422EA1A71004E23C9 /* BasierCircle-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFBFF6222EA1A70004E23C9 /* BasierCircle-Bold.otf */; };
 		1FFBFF6522EA1A71004E23C9 /* BasierCircle-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFBFF6322EA1A70004E23C9 /* BasierCircle-Regular.ttf */; };
 /* End PBXBuildFile section */
@@ -52,6 +69,23 @@
 		1FD4E20022E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+SwiftyGif.swift"; sourceTree = "<group>"; };
 		1FD4E20122E9231C00ADB3D0 /* UIImage+SwiftyGif.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+SwiftyGif.swift"; sourceTree = "<group>"; };
 		1FD4E20422E9233400ADB3D0 /* SwiftyGifManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyGifManager.swift; sourceTree = "<group>"; };
+		1FEC824223188236009FF1D3 /* Animation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Animation.swift; sourceTree = "<group>"; };
+		1FEC824323188236009FF1D3 /* TextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		1FEC824423188236009FF1D3 /* Sound.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		1FEC824523188236009FF1D3 /* CAMediaTimingFunction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAMediaTimingFunction+Extension.swift"; sourceTree = "<group>"; };
+		1FEC824623188236009FF1D3 /* CAKeyframeAnimation+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CAKeyframeAnimation+Extension.swift"; sourceTree = "<group>"; };
+		1FEC824723188236009FF1D3 /* CATransaction+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CATransaction+Extension.swift"; sourceTree = "<group>"; };
+		1FEC824823188236009FF1D3 /* Timeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Timeline.swift; sourceTree = "<group>"; };
+		1FEC824923188236009FF1D3 /* NSMutableParagraphStyle+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSMutableParagraphStyle+Extension.swift"; sourceTree = "<group>"; };
+		1FEC824A23188236009FF1D3 /* ShapeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShapeView.swift; sourceTree = "<group>"; };
+		1FEC824B23188236009FF1D3 /* NSShadow+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSShadow+Extension.swift"; sourceTree = "<group>"; };
+		1FEC824C23188236009FF1D3 /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1FEC824D23188236009FF1D3 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		1FEC824E23188236009FF1D3 /* CGPath+SVG.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CGPath+SVG.swift"; sourceTree = "<group>"; };
+		1FEC825D23188263009FF1D3 /* LikeButtonView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButtonView.swift; sourceTree = "<group>"; };
+		1FEC825E23188263009FF1D3 /* LikeButtonTimeline.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButtonTimeline.swift; sourceTree = "<group>"; };
+		1FEC82612318826A009FF1D3 /* ToggleButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToggleButton.swift; sourceTree = "<group>"; };
+		1FEC82622318826A009FF1D3 /* LikeButtonTimelineButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LikeButtonTimelineButton.swift; sourceTree = "<group>"; };
 		1FFBFF6222EA1A70004E23C9 /* BasierCircle-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Bold.otf"; sourceTree = "<group>"; };
 		1FFBFF6322EA1A70004E23C9 /* BasierCircle-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BasierCircle-Regular.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -138,9 +172,42 @@
 				1F92937E22E7C41A00E60495 /* AppDelegate.swift */,
 				1F92939422E7CC8300E60495 /* FeedController.swift */,
 				1F92939222E7CB2200E60495 /* FeedCell.swift */,
+				1FEC825C23188243009FF1D3 /* LikeButton */,
+				1FEC82412318822B009FF1D3 /* FlowCommon */,
 				1FD4E20622E924B700ADB3D0 /* SwiftyGif */,
 			);
 			path = Sources;
+			sourceTree = "<group>";
+		};
+		1FEC82412318822B009FF1D3 /* FlowCommon */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC824223188236009FF1D3 /* Animation.swift */,
+				1FEC824623188236009FF1D3 /* CAKeyframeAnimation+Extension.swift */,
+				1FEC824523188236009FF1D3 /* CAMediaTimingFunction+Extension.swift */,
+				1FEC824723188236009FF1D3 /* CATransaction+Extension.swift */,
+				1FEC824E23188236009FF1D3 /* CGPath+SVG.swift */,
+				1FEC824923188236009FF1D3 /* NSMutableParagraphStyle+Extension.swift */,
+				1FEC824B23188236009FF1D3 /* NSShadow+Extension.swift */,
+				1FEC824A23188236009FF1D3 /* ShapeView.swift */,
+				1FEC824423188236009FF1D3 /* Sound.swift */,
+				1FEC824323188236009FF1D3 /* TextView.swift */,
+				1FEC824823188236009FF1D3 /* Timeline.swift */,
+				1FEC824C23188236009FF1D3 /* UIImage+Extension.swift */,
+				1FEC824D23188236009FF1D3 /* UIView+Extension.swift */,
+			);
+			path = FlowCommon;
+			sourceTree = "<group>";
+		};
+		1FEC825C23188243009FF1D3 /* LikeButton */ = {
+			isa = PBXGroup;
+			children = (
+				1FEC82622318826A009FF1D3 /* LikeButtonTimelineButton.swift */,
+				1FEC82612318826A009FF1D3 /* ToggleButton.swift */,
+				1FEC825E23188263009FF1D3 /* LikeButtonTimeline.swift */,
+				1FEC825D23188263009FF1D3 /* LikeButtonView.swift */,
+			);
+			path = LikeButton;
 			sourceTree = "<group>";
 		};
 		1FFBFF6622EA1A7A004E23C9 /* Fonts */ = {
@@ -235,11 +302,28 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FEC825723188236009FF1D3 /* ShapeView.swift in Sources */,
+				1FEC826023188263009FF1D3 /* LikeButtonTimeline.swift in Sources */,
 				1F92937F22E7C41A00E60495 /* AppDelegate.swift in Sources */,
+				1FEC825823188236009FF1D3 /* NSShadow+Extension.swift in Sources */,
+				1FEC825023188236009FF1D3 /* TextView.swift in Sources */,
 				1F92939322E7CB2200E60495 /* FeedCell.swift in Sources */,
+				1FEC825323188236009FF1D3 /* CAKeyframeAnimation+Extension.swift in Sources */,
 				1F92939522E7CC8300E60495 /* FeedController.swift in Sources */,
+				1FEC825F23188263009FF1D3 /* LikeButtonView.swift in Sources */,
+				1FEC82642318826A009FF1D3 /* LikeButtonTimelineButton.swift in Sources */,
 				1FD4E20322E9231C00ADB3D0 /* UIImage+SwiftyGif.swift in Sources */,
+				1FEC825423188236009FF1D3 /* CATransaction+Extension.swift in Sources */,
 				1FD4E20522E9233500ADB3D0 /* SwiftyGifManager.swift in Sources */,
+				1FEC824F23188236009FF1D3 /* Animation.swift in Sources */,
+				1FEC825123188236009FF1D3 /* Sound.swift in Sources */,
+				1FEC825A23188236009FF1D3 /* UIView+Extension.swift in Sources */,
+				1FEC825B23188236009FF1D3 /* CGPath+SVG.swift in Sources */,
+				1FEC825923188236009FF1D3 /* UIImage+Extension.swift in Sources */,
+				1FEC825623188236009FF1D3 /* NSMutableParagraphStyle+Extension.swift in Sources */,
+				1FEC825523188236009FF1D3 /* Timeline.swift in Sources */,
+				1FEC82632318826A009FF1D3 /* ToggleButton.swift in Sources */,
+				1FEC825223188236009FF1D3 /* CAMediaTimingFunction+Extension.swift in Sources */,
 				1FD4E20222E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
