@@ -9,11 +9,11 @@
 import Foundation
 import UIKit
 
-class FeedCell: UICollectionViewCell {
+class FeedCell: UICollectionViewCell, ToggleButtonDelegate {
     @IBOutlet weak var title: UILabel!
     @IBOutlet weak var byLine: UILabel!
     @IBOutlet weak var webButton: UIButton!
-    @IBOutlet weak var likeButton: UIButton!
+    @IBOutlet weak var likeButton: LikeButtonTimelineButton!
     @IBOutlet weak var imageView: UIImageView!
     @IBOutlet weak var container: UIView!
     var delegate: FeedCellLikeDelegate!
@@ -31,6 +31,7 @@ class FeedCell: UICollectionViewCell {
     override func awakeFromNib() {
         style()
         createButtonTargets()
+        likeButton.delegate = self
     }
 
     /// Styles the cell
@@ -51,14 +52,12 @@ class FeedCell: UICollectionViewCell {
 
     /// Links buttons with the methods they should trigger
     func createButtonTargets() {
-        likeButton.addTarget(self, action: #selector(toggleLikeButton(sender:)), for: UIControl.Event.touchUpInside)
         webButton.addTarget(self, action: #selector(launchWeb(sender:)), for: UIControl.Event.touchUpInside)
     }
 
     /// Toggles the visible status of the like buttton
     @objc
-    func toggleLikeButton(sender: UIButton) {
-        sender.isSelected = !sender.isSelected
+    func toggleLikeButton(sender: LikeButtonTimelineButton) {
         data.liked = sender.isSelected
         delegate.likeStatusChanged(cell: self)
     }
@@ -70,6 +69,11 @@ class FeedCell: UICollectionViewCell {
             return
         }
         UIApplication.shared.open(url, options: [:], completionHandler: nil)
+    }
+
+    func buttonDidToggle(sender: ToggleButton) {
+        data.liked = sender.isSelected
+        delegate.likeStatusChanged(cell: self)
     }
 }
 

@@ -66,15 +66,13 @@
                                                             </constraints>
                                                             <state key="normal" image="safariIcon"/>
                                                         </button>
-                                                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3U8-hB-Bre">
+                                                        <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3U8-hB-Bre" customClass="LikeButtonTimelineButton" customModule="Flowcase" customModuleProvider="target">
                                                             <rect key="frame" x="260" y="20" width="40" height="40"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="height" constant="40" id="BAE-gv-2QN"/>
                                                                 <constraint firstAttribute="width" constant="40" id="VfZ-BW-bdU"/>
                                                                 <constraint firstAttribute="width" constant="40" id="bjH-ja-jaa"/>
                                                             </constraints>
-                                                            <state key="normal" image="likeIconOff"/>
-                                                            <state key="selected" image="likeIconOn"/>
                                                         </button>
                                                     </subviews>
                                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -137,8 +135,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="likeIconOff" width="36" height="33"/>
-        <image name="likeIconOn" width="32" height="29"/>
         <image name="safariIcon" width="35" height="35"/>
     </resources>
 </document>
