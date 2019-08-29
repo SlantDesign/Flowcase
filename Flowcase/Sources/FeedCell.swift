@@ -19,14 +19,7 @@ class FeedCell: UICollectionViewCell, ToggleButtonDelegate {
     var delegate: FeedCellLikeDelegate!
 
     /// Variable to hold the data for the cell
-    var data: FeedCellData! {
-        /// Set labels and image status after a new data object has been set
-        didSet {
-            title.text = data.title
-            byLine.text = data.author
-            likeButton.isSelected = data.liked
-        }
-    }
+    var data: FeedCellData!
 
     override func awakeFromNib() {
         style()
@@ -48,6 +41,12 @@ class FeedCell: UICollectionViewCell, ToggleButtonDelegate {
         if let regular = UIFont(name: "BasierCircle-Regular", size: byLine.font.pointSize) {
             byLine.font = regular
         }
+    }
+
+    func updateContent() {
+        title.text = data.title
+        byLine.text = data.author
+        likeButton.isSelected = data.liked
     }
 
     /// Links buttons with the methods they should trigger
