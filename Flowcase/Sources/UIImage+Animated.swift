@@ -26,7 +26,7 @@ func createRawAnimatedImage(gifName: String, duration: TimeInterval = -1, repeat
 }
 
 func animatedImageFrom(data: Data, duration userSpecifiedDuration: TimeInterval = -1, repeatCount: Int) -> RawAnimatedImage? {
-    guard let weak source = CGImageSourceCreateWithData(data as CFData, nil) else {
+    guard let source = CGImageSourceCreateWithData(data as CFData, nil) else {
         print("Couldn't create image source from data")
         return nil
     }
