@@ -26,6 +26,7 @@
 		1FD4E20222E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20022E9231C00ADB3D0 /* UIImageView+SwiftyGif.swift */; };
 		1FD4E20322E9231C00ADB3D0 /* UIImage+SwiftyGif.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20122E9231C00ADB3D0 /* UIImage+SwiftyGif.swift */; };
 		1FD4E20522E9233500ADB3D0 /* SwiftyGifManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FD4E20422E9233400ADB3D0 /* SwiftyGifManager.swift */; };
+		1FE140AD2319A9AF00F1E660 /* UIImage+Animated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE140AC2319A9AF00F1E660 /* UIImage+Animated.swift */; };
 		1FFBFF6422EA1A71004E23C9 /* BasierCircle-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFBFF6222EA1A70004E23C9 /* BasierCircle-Bold.otf */; };
 		1FFBFF6522EA1A71004E23C9 /* BasierCircle-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1FFBFF6322EA1A70004E23C9 /* BasierCircle-Regular.ttf */; };
 /* End PBXBuildFile section */

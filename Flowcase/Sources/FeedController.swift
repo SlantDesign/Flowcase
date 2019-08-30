@@ -118,8 +118,10 @@ class FeedController: UICollectionViewController, FeedCellLikeDelegate {
         cell.delegate = self
         cell.data = feedData[indexPath.item]
         cell.updateContent()
-        if let image = try? UIImage(imageName: cell.data.imageName) {
-            cell.imageView.setImage(image, manager: gifManager, loopCount: -1)
+        if let rawImage = createRawAnimatedImage(gifName: cell.data.imageName, repeatCount: -1) {
+            cell.imageView.animationImages = rawImage.images
+            cell.imageView.animationDuration = rawImage.duration
+            cell.imageView.animationRepeatCount = rawImage.repeatCount
         } else {
             cell.imageView.clear()
         }
